@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "App",
-    "slug": "ReactNative",
+    "slug": "VTEX-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +13,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -26,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bd274790-e99f-4b9d-9ebf-38f534c2f4d4"
+      }
     }
   }
 }
