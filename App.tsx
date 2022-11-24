@@ -1,5 +1,6 @@
+import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { Dimensions, StyleSheet, Text, View, StatusBar } from 'react-native';
+import { Dimensions, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Spinner from 'react-native-loading-spinner-overlay';
 import WebView from 'react-native-webview';
@@ -15,7 +16,7 @@ export default function App() {
   };
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar backgroundColor="#f41c64" />
+      <StatusBar style="light" backgroundColor="#f41c64" />
       <Spinner
         color="#000"
         visible={loading}
