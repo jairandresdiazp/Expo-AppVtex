@@ -25,8 +25,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.jdiaz.blacksip",
-      "permissions": ["NOTIFICATIONS"],
-      "useNextNotificationsApi": true
+      "permissions": ["NOTIFICATIONS"]
     },
     "web": {
       "favicon": "./assets/favicon.png"

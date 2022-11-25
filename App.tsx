@@ -1,4 +1,3 @@
-//import { Subscription } from '@unimodules/core';
 import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useRef, useState } from 'react';
 import { Dimensions, StyleSheet, Text, View } from 'react-native';
